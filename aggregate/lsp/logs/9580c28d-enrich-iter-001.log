@@ -1,0 +1,55 @@
+[2026-09-16T02:22:25Z] === ENRICH ITERATION 1 START | repo=squidfunk/mkdocs-material sha=9580c28d ===
+[2026-09-16T02:22:25Z] [iter=1] PHASE START: enrich repo=squidfunk/mkdocs-material sha=9580c28d runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/9580c28d-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/9580c28d2a8d8e7d088a203da4f98d2e31624c48.nq.gz
+[2026-09-16T02:23:37Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=85 MB
+[2026-09-16T02:23:50Z] [iter=1] AST store loaded triples=1617671 load_secs=12 mem_mb=986 MB
+[2026-09-16T02:23:50Z] [iter=1] Step 2: Finding LSP targets mem_mb=986 MB
+[2026-09-16T02:23:52Z] [iter=1] LSP targets found call_sites=9129 imports=0 extends=1 implements=0 secs=3
+[2026-09-16T02:23:54Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=986 MB
+[2026-09-16T02:24:04Z] [iter=1] Position index built positions=116773 nodes_with_types=136230 secs=10 mem_mb=986 MB
+[2026-09-16T02:24:04Z] [iter=1] Step 3: Starting LSP resolution mem_mb=986 MB already_completed_types=[] already_completed_files=0
+[2026-09-16T02:24:04Z] [iter=1] Resolving target type target_type=call_site count=9129
+[2026-09-16T02:24:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.7 files_done=0 resolved=0 errors=0 current=material/plugins/info/plugin.py
+[2026-09-16T02:25:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.7 files_done=2 resolved=365 errors=76 current=src/plugins/optimize/plugin.py
+[2026-09-16T02:25:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.4 files_done=8 resolved=607 errors=131 current=material/plugins/projects/builder/log.py
+[2026-09-16T02:26:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.1 files_done=10 resolved=814 errors=181 current=src/plugins/blog/plugin.py
+[2026-09-16T02:27:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.1 files_done=11 resolved=922 errors=271 current=src/plugins/tags/structure/mapping/manager/__init__.py
+[2026-09-16T02:28:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.9 files_done=14 resolved=1072 errors=331 current=material/plugins/tags/structure/mapping/manager/__init__.py
+[2026-09-16T02:29:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.7 files_done=20 resolved=1343 errors=396 current=material/plugins/blog/structure/__init__.py
+[2026-09-16T02:29:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.2 files_done=26 resolved=1482 errors=440 current=material/plugins/tags/plugin.py
+[2026-09-16T02:30:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.7 files_done=31 resolved=1568 errors=483 current=src/plugins/tags/structure/listing/__init__.py
+[2026-09-16T02:31:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.8 files_done=34 resolved=1705 errors=575 current=material/plugins/meta/plugin.py
+[2026-09-16T02:31:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.4 files_done=42 resolved=1842 errors=618 current=src/plugins/blog/author.py
+[2026-09-16T02:32:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.2 files_done=48 resolved=1992 errors=689 current=src/plugins/group/plugin.py
+[2026-09-16T02:33:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.7 files_done=54 resolved=2104 errors=733 current=src/plugins/projects/config.py
+[2026-09-16T02:33:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.4 files_done=66 resolved=2308 errors=789 current=src/plugins/typeset/plugin.py
+[2026-09-16T02:34:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.2 files_done=75 resolved=2370 errors=858 current=src/plugins/group/config.py
+[2026-09-16T02:35:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.0 files_done=122 resolved=2575 errors=916 current=src/templates/assets/javascripts/components/sidebar/index.ts
+[2026-09-16T02:36:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.7 files_done=124 resolved=2584 errors=979 current=tools/build/index.ts
+[2026-09-16T02:36:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.5 files_done=125 resolved=2619 errors=1051 current=src/templates/assets/javascripts/components/source/_/index.ts
+[2026-09-16T02:38:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.9 files_done=129 resolved=2707 errors=1174 current=src/templates/assets/javascripts/components/header/_/index.ts
+[2026-09-16T02:39:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.6 files_done=131 resolved=2731 errors=1242 current=src/overrides/assets/javascripts/components/iconsearch/result/index.ts
+[2026-09-16T02:39:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=17.2 files_done=135 resolved=2759 errors=1294 current=src/templates/assets/javascripts/components/palette/index.ts
+[2026-09-16T02:40:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.2 files_done=137 resolved=2808 errors=1378 current=src/templates/assets/javascripts/integrations/instant/index.ts
+[2026-09-16T02:41:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.8 files_done=138 resolved=2830 errors=1437 current=src/templates/assets/javascripts/browser/request/index.ts
+[2026-09-16T02:42:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.9 files_done=144 resolved=2871 errors=1531 current=src/templates/assets/javascripts/components/search/suggest/index.ts
+[2026-09-16T02:42:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=20.4 files_done=147 resolved=2876 errors=1580 current=src/overrides/assets/javascripts/components/iconsearch/_/index.ts
+[2026-09-16T02:43:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=21.0 files_done=152 resolved=2892 errors=1634 current=src/templates/assets/javascripts/components/content/_/index.ts
+[2026-09-16T02:44:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=21.7 files_done=155 resolved=2912 errors=1701 current=src/templates/assets/javascripts/patches/indeterminate/index.ts
+[2026-09-16T02:45:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=22.7 files_done=157 resolved=2932 errors=1790 current=src/templates/assets/javascripts/components/announce/index.ts
+[2026-09-16T02:45:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=23.3 files_done=159 resolved=2950 errors=1844 current=src/templates/assets/javascripts/components/toc/index.ts
+[2026-09-16T02:46:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=23.9 files_done=160 resolved=2964 errors=1894 current=src/templates/assets/javascripts/integrations/search/query/segment/index.ts
+[2026-09-16T02:46:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=24.5 files_done=166 resolved=2986 errors=1949 current=src/templates/assets/javascripts/integrations/alternate/index.ts
+[2026-09-16T02:47:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=25.1 files_done=169 resolved=3002 errors=2004 current=src/templates/assets/javascripts/integrations/sitemap/index.ts
+[2026-09-16T02:48:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=25.7 files_done=174 resolved=3012 errors=2057 current=src/templates/assets/javascripts/browser/worker/index.ts
+[2026-09-16T02:48:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=26.3 files_done=179 resolved=3037 errors=2111 current=src/templates/assets/javascripts/browser/element/size/_/index.ts
+[2026-09-16T02:49:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=26.8 files_done=189 resolved=3068 errors=2159 current=src/templates/assets/javascripts/templates/source/index.tsx
+[2026-09-16T02:49:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=27.3 files_done=199 resolved=3127 errors=2204 current=src/templates/assets/javascripts/browser/viewport/_/index.ts
+[2026-09-16T02:50:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=27.9 files_done=203 resolved=3163 errors=2253 current=src/templates/assets/javascripts/browser/element/offset/content/index.ts
+[2026-09-16T02:50:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=28.4 files_done=207 resolved=3166 errors=2300 current=src/templates/assets/javascripts/templates/version/index.tsx
+[2026-09-16T02:55:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=33.4 files_done=221 resolved=3471 errors=2749 current=material/templates/assets/javascripts/lunr/tinyseg.js
+[2026-09-16T02:55:55Z] [iter=1] Target type resolved target_type=call_site resolved=3481 errors=2753 secs=1911 mem_mb=986 MB
+[2026-09-16T02:55:55Z] [iter=1] Resolving target type target_type=extends_clause count=1
+[2026-09-16T02:55:57Z] [iter=1] Target type resolved target_type=extends_clause resolved=1 errors=0 secs=2 mem_mb=986 MB
+[2026-09-16T02:56:09Z] [iter=1] Step 5: Writing final enrichment file triples=88840
+[2026-09-16T02:56:10Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/9580c28d2a8d8e7d088a203da4f98d2e31624c48.nq.gz size_kb=1938
+[2026-09-16T02:56:10Z] [iter=1] PHASE END: enrich elapsed_s=2025 elapsed_min=33.8 total_triples=88840
