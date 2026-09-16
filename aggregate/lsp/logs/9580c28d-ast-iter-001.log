@@ -1,0 +1,7 @@
+[2026-09-16T02:18:33Z] === AST ITERATION 1 START | repo=squidfunk/mkdocs-material sha=9580c28d ===
+[2026-09-16T02:18:33Z] [iter=1] PHASE START: ast repo=squidfunk/mkdocs-material sha=9580c28d
+[2026-09-16T02:18:33Z] [iter=1] Building AST aggregate chunks
+[2026-09-16T02:20:51Z] [iter=1] AST chunks built count=1 triples=1617760
+[2026-09-16T02:20:51Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/9580c28d2a8d8e7d088a203da4f98d2e31624c48/.complete
+[2026-09-16T02:20:51Z] [iter=1] PHASE END: ast elapsed_s=138 elapsed_min=2.3
+[2026-09-16T02:20:51Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
